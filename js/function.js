@@ -30,3 +30,10 @@ function operazione() {
     number = "";
     numberFirst = 0;
 }
+
+function resetAll() {
+    operator = "";
+    number = "";
+    numberFirst = 0;
+    document.getElementById("result").innerHTML = "0";
+}
