@@ -14,17 +14,17 @@ function operazione() {
     let operationResult = 0;
     numberFirst = parseInt(numberFirst);
     number = parseInt(number);
+   
     if (operator == "+") {
         operationResult = numberFirst + number;
-    }
-    if (operator == "-") {
+    } else if (operator == "-") {
         operationResult = numberFirst - number;
-    }
-    if (operator == "x") {
+    } else if (operator == "x") {
         operationResult = numberFirst * number;
-    }
-    if (operator == "÷") {
+    }else if (operator == "÷" && number != 0) {
         operationResult = numberFirst / number;
+    } else {
+        operationResult = "ERROR"
     }
     document.getElementById("result").innerHTML = operationResult;
     number = "";
