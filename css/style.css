@@ -1,0 +1,93 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #D1D1D1;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.display {
+    background-color: #000000;
+    color: #09D296;
+    font-weight: 300;
+    font-size: 75px;
+    padding: 15px;
+    text-align: end;
+    font-family: 'Seven Segment';
+}
+
+button {
+    border-radius: 10px;
+    align-items: stretch;
+}
+
+.tastiera {
+
+    display: flex;
+    padding: 15px;
+}
+
+.numeri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.num {
+    font-weight: 300;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: calc(100% / 3 - 10px);
+
+}
+
+.operatori {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.orange {
+    background-color: #FF9F0A;
+    color: white;
+}
+
+.azzurro {
+    background-color: #77A8B0;
+    color: white;
+}
+
+.grigio {
+    background-color: #BBBBBB;
+    color: #000000;
+}
+
+.ope {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+}
+.btn0 {
+    flex-grow: 1;
+}
