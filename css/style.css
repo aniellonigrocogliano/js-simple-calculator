@@ -6,8 +6,6 @@
 
 }
 
-body {}
-
 .container {
     width: 400px;
     margin: 0 auto;
@@ -50,6 +48,15 @@ button {
 }
 
 .num {
+    font-weight: 300;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: calc(100% / 3 - 10px);
+
+}
+.equal {
     font-weight: 300;
     font-size: 30px;
     margin-right: 10px;
