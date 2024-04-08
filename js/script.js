@@ -1,7 +1,15 @@
 let num = document.querySelectorAll(".num");
-console.log (num);
-let number="";
+let ope = document.querySelectorAll(".ope");
+let equal = document.querySelector(".equal");
+let operator = "";
+let number = "";
+let numberFirst = 0;
+
 for (let i = 0; i < num.length; i++) {
- num[i].addEventListener("click", concatenaNumeri);
-    
+    num[i].addEventListener("click", concatenaNumeri);
 }
+
+for (let i = 0; i < ope.length; i++) {
+    ope[i].addEventListener("click", sceltaOperatore)
+}
+equal.addEventListener("click", operazione);
