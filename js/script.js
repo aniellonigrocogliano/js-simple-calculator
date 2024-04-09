@@ -5,6 +5,7 @@ let reset = document.querySelector(".reset");
 let operator = "";
 let number = "";
 let numberFirst = 0;
+let contOperator=false;
 
 for (let i = 0; i < num.length; i++) {
     num[i].addEventListener("click", concatenaNumeri);
